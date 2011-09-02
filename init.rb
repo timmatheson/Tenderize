@@ -1,5 +1,5 @@
 require 'rubygems'
 require 'httparty'
 require 'json'
-require 'tenderize'
+require 'lib/tenderize'
 
