@@ -6,10 +6,6 @@ describe Tenderize::Queue do
       Tenderize::Queue.respond_to?(:all).should be_true
     end
     
-    it "should respond to all" do
-      Tenderize::Queue.respond_to?(:all).should be_true
-    end
-    
     it "should respond to find" do
       Tenderize::Queue.respond_to?(:find).should be_true
     end

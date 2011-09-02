@@ -6,10 +6,6 @@ describe Tenderize::Category do
       Tenderize::Category.respond_to?(:all).should be_true
     end
     
-    it "should respond to all" do
-      Tenderize::Category.respond_to?(:all).should be_true
-    end
-    
     it "should respond to find" do
       Tenderize::Category.respond_to?(:find).should be_true
     end
