@@ -17,7 +17,7 @@ module Tenderize
     end
     
     def self.tender_api_url
-      "http://api.tenderapp.com/ordercup"
+      "http://api.tenderapp.com/#{config.account_name}"
     end
     
     def self.root_node( node )
